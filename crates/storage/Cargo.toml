@@ -1,0 +1,23 @@
+[package]
+name = "mychain-storage"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Workspace crates
+mychain-types = { path = "../types" }
+
+# Storage
+sled = { workspace = true }
+
+# Crypto
+blake3 = { workspace = true }
+
+# Serialization
+serde = { workspace = true }
+bincode = { workspace = true }
+
+# Utilities
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+hex = { workspace = true }

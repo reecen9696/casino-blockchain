@@ -1,0 +1,1 @@
+ServiceFn<{closure@crates/app/src/lib.rs:87:24: 87:69}>

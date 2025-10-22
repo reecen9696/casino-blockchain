@@ -51,11 +51,11 @@ pub struct BetRecord {
     /// Nonce used
     pub nonce: u64,
     /// VRF message that was signed
-    pub msg: Vec<u8>,
+    pub vrf_message: Vec<u8>,
     /// VRF proof
-    pub proof: Vec<u8>,
+    pub vrf_proof: Vec<u8>,
     /// VRF output
-    pub output: Vec<u8>,
+    pub vrf_output: Vec<u8>,
     /// Coin flip result (true = heads, false = tails)
     pub result: bool,
     /// Block height where bet was processed
